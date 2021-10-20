@@ -1,2 +1,1 @@
-# Budget-Tracker
-An app to tracker expenses
+# Budget Tracker Starter Code
