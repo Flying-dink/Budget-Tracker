@@ -1,0 +1,28 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack-watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flying-dink/Budget-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^3.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Flying-dink/Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/Flying-dink/Budget-Tracker#readme",
+  "devDependencies": {
+    "webpack": "^4.9.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
