@@ -2,10 +2,11 @@
   "name": "budget-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "webpack": "webpack-watch",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
+    
     "express": "^4.16.4",
+    "image-webpack-loader": "^8.0.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
     "uuid": "^3.4.0"
   },
   "bugs": {
@@ -22,7 +29,12 @@
   },
   "homepage": "https://github.com/Flying-dink/Budget-Tracker#readme",
   "devDependencies": {
+    
+    "file-loader": "^6.2.0",
     "webpack": "^4.9.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
