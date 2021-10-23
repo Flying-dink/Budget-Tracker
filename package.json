@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server"
+    "lite-server": "lite-server",
+    "heroku postbuild": "cd client && npm install --only=dev && run build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "compression": "^1.7.4",
-    
+    "dotenv": "^10.0.0",
     "express": "^4.16.4",
     "image-webpack-loader": "^8.0.1",
     "lite-server": "^2.6.1",
@@ -29,7 +30,6 @@
   },
   "homepage": "https://github.com/Flying-dink/Budget-Tracker#readme",
   "devDependencies": {
-    
     "file-loader": "^6.2.0",
     "webpack": "^4.9.1",
     "webpack-bundle-analyzer": "^4.5.0",
